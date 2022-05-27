@@ -59,7 +59,7 @@ public class PlayerController : MonoBehaviour
         scoreText.text = "Count: " + score.ToString();
 
         // すべての収集アイテムを獲得した場合
-        if (score >=5)
+        if (score >=8)
         {
             // リザルトの表示を更新
             winText.text = "You Win!";
